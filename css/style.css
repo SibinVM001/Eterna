@@ -1,0 +1,349 @@
+
+ @media only screen and (max-width: 768px) {
+    .topBar{
+        font-size: 2vw;
+    }
+
+    
+ }
+ @media only screen and (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        justify-content: flex-end;
+    }
+    
+}
+ @media only screen and (max-width: 992px) {
+     .topBar{
+        height: 8vh !important;
+        font-size: 1.5vw;
+     }
+     .topBar .rightList {
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+    .cards{
+        margin-top: -200px;
+    }
+    /* .cardStyle{
+        width: 20px !important;
+        height: 15px !important;
+        padding: 30px;
+        margin: 0 15px;
+        border-radius: 15px;
+    } */
+    
+ }
+ @media only screen and (min-width:1200px){
+    .topBar{
+        height: 12vh !important;
+     }
+     
+ }
+
+
+
+body{
+    margin: 0;
+}
+.topBar{
+    display: flex;
+    height: 50px;
+    background-color: dimgrey;
+    align-items: center;
+}
+.topBar ul{
+    margin: 0;
+}
+.topBar li{
+    display: inline;
+}
+.topBar a{
+    color: white;
+    text-decoration: none;
+}
+.topBar a:hover{
+    color: rgb(63, 63, 63);
+}
+.orange{
+    color: rgb(255, 102, 0);
+}
+.topBar ol, ul {
+    padding-left: 0;
+  }
+.topBar .rightList{
+    margin-left: 5vw;
+}
+.topBar .rightList li{
+    padding: 0 10px;
+}
+
+.logoContainer{
+    margin-left: 2vw;
+}
+.logoImg{
+    display: inline-block;
+    padding-left: 10px;
+    height: 25px;
+    border-left: 10px solid rgb(255, 102, 0);
+}
+.logo{
+    font-weight: 500;
+}
+.navbarLinks a{
+    color: rgb(70, 70, 70) !important;
+}
+.navbarLinks a:hover{
+    color: rgb(255, 102, 0) !important;
+}
+.navbarLinks .active{
+    color: rgb(255, 102, 0) !important;
+}
+
+/* .carousel-inner h1{
+    font-size: 3.5vw;
+}
+.carousel-inner p{
+    font-size: 1.3vw;
+} */
+.carousel-indicators  button{
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 50% !important;
+    background-color: rgb(255, 102, 0) !important;
+    cursor: pointer !important;
+    /* margin-top: -200px !important; */
+}
+/* .carouselContainer{
+    display: flex !important; 
+    justify-content: center;
+} */
+.carouselTextContent span{
+    color: rgb(255, 102, 0);
+}
+.carouselTextContent{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    top: 15%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    text-align: center;
+    width: 600px;
+    z-index: 999;
+}
+.carousel-inner img{
+    opacity: .6 !important;
+}
+.carouselTextContent button{
+    color: white;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(255, 102, 0);
+    margin-top: 50px;
+}
+.carouselTextContent button:hover{
+    background-color: rgb(255, 72, 0);
+}
+
+.cards{
+    margin-top: -10vw;
+    display: flex;
+    justify-content: center;
+    /* padding: 0 80px; */
+}
+.card-title{
+    font-size: 1.6vw;
+}
+.cardStyle{
+    width: 27vw !important;
+    height: fit-content !important;
+    font-size: 1.2vw;
+    padding: 30px;
+    margin: 0 15px;
+    border-radius: 15px;
+}
+.cardStyle:hover{
+    transform: scale(1.02);
+}
+.cards i{
+    color: rgb(255, 72, 0);
+}
+.cardStyle a{
+    text-decoration: none;
+    color: rgb(255, 72, 0);
+    float: right;
+}
+
+.testimonials{
+    margin: 0;
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    /* background-color: rgb(158, 255, 255); */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 50px; */
+}
+.testimonialItems{
+    /* width: 100%;
+    height: 350px; */
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.testimonialContainer{
+    background-color: white;
+    width: 90%;
+    height: 400px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.testimonialImg{
+    /* background-color: green; */
+    height: 200px;
+    border-radius: 50%;
+    width: 150px;
+    padding: 0;
+    
+}
+#testimonialImg1{
+    background-image: url("../images/testimonial1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#testimonialImg2{
+    background-image: url("../images/testimonial2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#testimonialImg3{
+    background-image: url("../images/testimonial3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.testimonialContents{
+    /* background-color: blue; */
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.footer{
+    margin-top: 30px;
+    height: 350px;
+    
+}
+.footer a:hover{
+    color: white;
+}
+.footerDetails{
+    background-color: rgb(61, 61, 61);
+    height: 310px;
+    color: rgb(199, 199, 199);
+    padding-top: 30px;
+}
+.menu{
+    display: flex; 
+    justify-content: center;
+    height: 310px;
+    /* padding: 30px; */
+    /* font-size: 14px; */
+}
+.menuItems{
+    list-style-type: none;
+    padding: 0;
+    /* padding-left: 8px; */
+}
+.menuItems li{
+    padding: 5px 0;
+    font-size: 14px;
+}
+.menuItems a{
+    text-decoration: none;
+    color: rgb(199, 199, 199);;
+    
+}
+.footerContact{
+    display: flex; 
+    justify-content: center;
+    height: 310px;
+    /* padding: 30px; */
+}
+.footerContact p{
+    padding: 0;
+    margin: 0;
+    padding: 5px 0;
+    font-size: 14px;
+}
+.footerContact a{
+    text-decoration: none;
+    color: rgb(199, 199, 199);;
+    
+}
+.footerContact i{
+    padding-right: 5px;
+}
+.newsLetter input{
+    margin-top: 5px;
+    padding: 3px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.newsLetter button{
+    color: white;
+    font-size: 14px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: rgb(255, 57, 57);
+}
+.newsLetter button:hover{
+    background-color: red;
+}
+.footerIcons{
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 20px;
+    
+}
+.footerIcons li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.footerIcons a{
+    color: rgb(199, 199, 199);;
+}
+
+.copyright{
+    background-color: rgb(77, 77, 77);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.copyright p{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+.copyright a{
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+}
